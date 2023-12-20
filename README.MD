@@ -16,3 +16,5 @@ I installed Rocm and Pytorch via instruction in https://rocm.docs.amd.com/projec
 * Bitsandbytes cannot be used for ROCM 5.7 (Third-party repositories only made it support 5.6)
 * Llama CPP only support ROCM 5.6.1 as the latest version of ROCM. When I try to use it. The utilization of shader clock stuck at 100%
 * Rocm is not as widely adopted as CUDA yet.
+![Alt text](image.png)
+* AMD only officially support flagship GPU at the time for Consumer grade GPU.
