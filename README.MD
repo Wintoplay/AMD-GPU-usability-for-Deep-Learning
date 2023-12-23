@@ -20,3 +20,10 @@ You can check pytorch wheel for pytorch stable and pytorch nightly by these link
 * Rocm is not as widely adopted as CUDA yet.
 ![Alt text](image.png)
 * AMD only officially support flagship GPU at the time for Consumer grade GPU.
+* Rocm+Pytorch combo is only usable on Linux at the time of writing
+
+# Training speed
+you can see example in ./running result 7900xtx<br>
+compared to A100 training https://colab.research.google.com/drive/1uB6CWbsQcPQabl7CzMznYZ59lktSAPcZ?usp=sharing, and https://colab.research.google.com/drive/1yCDFx860A1gwyXSlMjMIWVMLuXs66d6K?usp=sharing
+
+bf16 training on 7900xtx is faster than A100 but lora is slower (I guess it is due to the fact that rocm 5.7 is not officially supported by bitsandbytes => poorly optimized.)
