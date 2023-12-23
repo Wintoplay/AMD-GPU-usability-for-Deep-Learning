@@ -6,7 +6,9 @@ At the present(Dec 2023)
 
 It works work for normal usage of Pytorch, Stable diffusion with ROCM 5.7
 
-I installed Rocm and Pytorch via instruction in https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/install-radeon.html and https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/install-pytorch.html
+I installed Rocm via instruction in https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/install-radeon.html
+
+You can check pytorch wheel for pytorch stable and pytorch nightly by these links: https://download.pytorch.org/whl/torch/, and https://download.pytorch.org/whl/nightly/torch/
 
 ## Benefit of AMD GPU that led the me buying it
 * It is far cheaper than Nvidia couterpart.
